@@ -2,8 +2,8 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;}
-body{background-color: rgba(237, 230, 221, 1);}
-header{
+body{}
+header{background-color: rgba(237, 230, 221, 1);
 padding: 40px 0; 
 margin-bottom: 80px; 
 height: 112p
@@ -31,7 +31,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 153.846% */"
 }
-.sectone{
+.sectone{background-color: rgba(237, 230, 221, 1);
 padding-bottom: 196px;
 box-sizing: border-box
 }
@@ -215,10 +215,11 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.176px;
 }
-.weird li:first-of-type:before{
+.weird li:first-child:before{
+display: inline-block;
+content: "";
 list-style-image: url(images/Frame1.png);
 padding-bottom: 46px;
-display: inline-block;
 width: 600px; height: 90px;
 }
 .weird li:nth-child(2):before{
@@ -229,4 +230,39 @@ width: 600px; height: 90px;
 .weird li:last-of-type:before{
 list-style-image: url(images/Frame3.png);
 width: 600px; height: 90px;
+}
+
+
+.huge{
+        background-color: #F4EFE9;
+}
+.huge article{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 1200px;
+        align-items: center;
+        margin: 80px 120px;
+}
+.huge article div{
+          max-width: 600px;
+}
+.huge h4{
+        color: #1E1928;
+text-align: right;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 131.25% */
+}
+.huge p{
+        color: rgba(30, 25, 40, 0.80);
+text-align: right;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
 }
