@@ -254,6 +254,8 @@ background-repeat: no-repeat;
 
 .huge{
         background-color: #F4EFE9;
+        padding-top: 80px;
+        padding-bottom: 80px;
       
 }
 .huge article{
@@ -262,7 +264,6 @@ background-repeat: no-repeat;
         align-items: center;
         max-width: 1200px;
         margin: auto;
-        margin-top: 80px;
 }
 .huge article div{
           max-width: 600px;
@@ -294,14 +295,11 @@ flex-direction: row-reverse;
 }
 .lot{
 background-color: #F4EFE9;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-
+  padding-top: 144px;
+  padding-bottom: 402px;
+text-align: center; 
 }
 .lot h4{
-        margin-top: 114px;
         margin-bottom: 80px;
         color: #1E1928;
 text-align: center;
@@ -312,12 +310,12 @@ font-weight: 700;
 line-height: 26px; /* 152.941% */
 letter-spacing: 0.252px;
 }
-.lot div{
-gap: 16px;
+.lot .pics{
+        display: flex;
+        justify-content: space-between;
 margin-bottom: 80px;
 }
 .lot a{
-        
 text-decoration: none;
 height: 40px;
 padding: 10px 33px;
@@ -330,4 +328,86 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 142.857% */
+}
+.white-box{
+        background-color: #fff;
+        max-width: 1200px;
+        width: 100%;
+        position: absolute;
+        padding-top: 80px;
+        padding-bottom: 76px;
+        top: -158px;
+        left: calc(50% - 600px);
+
+}
+.white-box h4{
+        color: #1E1928;
+margin-bottom: 28px;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; /* 131.25% */
+}
+.white-box p{
+        margin: auto;
+        text-align: center;
+        max-width: 662px;
+        color: rgba(30, 25, 40, 0.80);
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 176.471% */
+letter-spacing: 0.252px;
+}
+.violet{
+        position: relative;
+background-color: #592141;;
+padding-top: 402px;
+padding-bottom: 184px;
+}
+.violet h5{
+        margin-bottom: 36px;
+        color: #F4EFE9;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.252px;
+}
+.violet .viol{
+        max-width: 828px;
+        margin: auto;
+}
+.quotes{
+        color: #F4EFE9;
+text-align: center;
+font-family: Roboto;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: 96px; /* 100% */
+}
+.interview{
+        margin-bottom: 32px;
+        color: #F4EFE9;
+text-align: center;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 120% */
+}
+.name{
+        color: #F4EFE9;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 160% */
 }
