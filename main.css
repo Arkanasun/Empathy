@@ -301,8 +301,8 @@ align-items: center;
 
 }
 .lot h4{
-        padding-top: 114px;
-        padding-bottom: 80px;
+        margin-top: 114px;
+        margin-bottom: 80px;
         color: #1E1928;
 text-align: center;
 font-family: Inter;
@@ -314,5 +314,20 @@ letter-spacing: 0.252px;
 }
 .lot div{
 gap: 16px;
-
+margin-bottom: 80px;
+}
+.lot a{
+        
+text-decoration: none;
+height: 40px;
+padding: 10px 33px;
+border-radius: 9999px;
+border: 1px solid #1E1928;
+color: #1E1928;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
 }
