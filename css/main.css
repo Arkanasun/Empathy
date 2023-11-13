@@ -293,6 +293,17 @@ letter-spacing: 0.252px;
 .huge2, .huge4{ 
 flex-direction: row-reverse;
 }
+
+.huge2 p, .huge4 p{ color: rgba(30, 25, 40, 0.80);
+text-align: left;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
+}
+
 .lot{
 background-color: #F4EFE9;
   padding-top: 144px;
