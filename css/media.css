@@ -5,7 +5,13 @@
 margin-bottom: 80px;
 flex-wrap: wrap;
 }
+@media screen and (max-width: 1215px){
+header .header{
+padding-left: 15px;
+padding-right: 15px;	
+} 
 
+}
 @media screen and (max-width: 1200px) {
 .sectone div{
 max-width: 1200px; 
@@ -34,6 +40,7 @@ background-image: url(images/F2.png);
 background-position: bottom -240px left 0px; 
 background-repeat: no-repeat; 
 box-sizing: border-box;
+padding: 0 15px;
 
 }
 .white-box{
@@ -42,8 +49,9 @@ box-sizing: border-box;
         padding-top: 80px;
         padding-bottom: 76px;
         position: static;
-      
+
    }
+      
   .violet{
 background-color: #592141;;
 padding-top: 402px;
@@ -120,6 +128,9 @@ box-sizing: border-box;
 max-width: 1200px;
 padding-top: 0px;
 margin: auto;
+}
+.cent{
+padding-top: 15px;
 }
 .wo{
 	padding-bottom: 50px;

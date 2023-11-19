@@ -228,15 +228,15 @@ padding-bottom: 46px;
 .weird li:first-of-type:before{
 display: inline-block;
 content: "";
-background-image: url(images/Frame1.png);
+background-image: url(../images/Frame1.png);
 background-repeat: no-repeat;
 width: 40px; height: 40px;
-padding-right: 50px;
+padding-right: 40px;
 }
 .weird li:nth-child(2):before{
 display: inline-block;  
 content: "";
-background-image: url(images/Frame2.png);
+background-image: url(../images/Frame2.png);
 width: 40px; height: 40px;
 padding-right: 50px;
 background-repeat: no-repeat;
@@ -244,7 +244,7 @@ background-repeat: no-repeat;
 .weird li:last-of-type:before{
 display: inline-block;
 content: "";
-background-image: url(images/Frame3.png);
+background-image: url(../images/Frame3.png);
 width: 40px; height: 40px;
 padding-right: 50px;
 background-repeat: no-repeat;
