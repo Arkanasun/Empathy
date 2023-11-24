@@ -444,3 +444,16 @@ line-height: 24px; /* 160% */
         max-width: 1200px;
         margin: auto;
 }
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
+
+        border-radius: 20px 20px 0 0px;
+}
+.ui-accordion .ui-accordion-content{
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
+        border-radius: 20px 20px 0 0;
+}
