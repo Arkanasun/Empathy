@@ -330,6 +330,10 @@ letter-spacing: 0.252px;
         justify-content: space-between;
 margin-bottom: 80px;
 }
+.lot .pics img{
+        width: 144px;
+        height: 160px;
+}
 .lot a{
 text-decoration: none;
 height: 40px;
