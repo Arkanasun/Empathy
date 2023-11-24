@@ -440,3 +440,7 @@ line-height: 24px; /* 160% */
     font-size: 65px;
     font-style: normal;
 }
+.container_2{
+        max-width: 1200px;
+        margin: auto;
+}
