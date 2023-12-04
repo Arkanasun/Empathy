@@ -38,8 +38,8 @@ box-sizing: border-box
 .sectone div{
 max-width: 1200px; 
 margin: auto; 
-display: flex; 
-justify-content: space-between;        
+display: flex;
+justify-content: space-between;  
 }
 .sectone div article{
 max-width: 549px;    
@@ -114,7 +114,7 @@ max-width: 564px;
 .pict img{
 display: block; 
 padding-top: 153px;
-width: 100%
+width: 100%;
 }
 .beig{
 min-height: 700px;
