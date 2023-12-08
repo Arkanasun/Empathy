@@ -35,16 +35,16 @@ line-height: 20px; /* 153.846% */"
 padding-bottom: 196px;
 box-sizing: border-box
 }
-.sectone div{
+.sectone .section1{
 max-width: 1200px; 
 margin: auto; 
 display: flex;
 justify-content: space-between;  
 }
-.sectone div article{
+.sectone .section1 article{
 max-width: 549px;    
 }
-.sectone div article h1{
+.sectone .section1 article h1{
 color: #1E1928; 
 margin-bottom: 21px; 
 font-family: Roboto;
@@ -88,7 +88,7 @@ background: #FFF; display: flex;
 max-width: 448px; 
 justify-content: space-between;        
 }
-.sectone div article form input{
+.sectone .section1 article form input{
 width: 180px; border: none; 
 background-color: transparent; 
 padding: 10px 19px; 
@@ -97,7 +97,7 @@ color: rgba(30, 25, 40, 1);
 .buton1{
  width: 179px;
 height: 40px;
-padding: 10 px 32px;
+padding: 10px 32px;
 border-radius: 9999px;
 background: #1E1928;
 flex-shrink: 0; color: #F4EFE9;
@@ -112,7 +112,6 @@ line-height: 20px; /* 142.857% */
 max-width: 564px;
 }
 .pict img{
-display: block; 
 padding-top: 153px;
 width: 100%;
 }
@@ -176,7 +175,6 @@ height: 40px;
 flex-shrink: 0;
 border-radius: 9999px;
 border: 1px solid #1E1928;
-
 }
 .d-flex{display: flex;
 justify-content: space-between;
@@ -265,7 +263,7 @@ background-repeat: no-repeat;
         margin: auto;
         margin-bottom: 80px;
 }
-.huge article div{
+.huge article container_4{
           max-width: 600px;
 }
 .huge1 img{
@@ -290,6 +288,21 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 letter-spacing: 0.252px;
+}
+.container_4 p:first-of-type{
+        max-width: 587px;
+}
+.container_4 p:nth-child(2){
+        max-width: 597px;
+}
+.container_4 p:nth-child(3){
+        max-width: 591px;
+}
+.container_4 p:nth-child(4){
+        max-width: 599px;
+}
+.container_4 p:last-of-type{
+        max-width: 597px;
 }
 .huge2, .huge4{ 
 flex-direction: row-reverse;
@@ -387,7 +400,7 @@ background-color: #592141;;
 padding-top: 402px;
 padding-bottom: 184px;
 }
-.violet h5{
+.viol h5{
         margin-bottom: 36px;
         color: #F4EFE9;
 text-align: center;
@@ -500,4 +513,25 @@ line-height: 24px; /* 160% */
 }
 .ui-accordion .ui-accordion-content p{
         padding-bottom: 20px;
+}
+.as_seen_on{
+        background-color: #EDE6DD;
+        padding-top: 144px;
+        padding-bottom: 140px;
+}
+.as_seen_on h5{
+        color: #1E1928;
+text-align: center;
+font-family: Roboto;
+font-size: 31px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; /* 135.484% */
+text-align: center;
+margin-bottom: 68px;
+}
+
+.as_seen_on .container_3{
+        display: flex;
+        justify-content: space-around;
 }
