@@ -5,36 +5,39 @@
 @import "mobile.menu.css";
 @import "main.css";
 @import "media.css";
-$main_color:#F4EFE9;
+
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
   }
-header{
-  background-color: rgba(237, 230, 221, 1);
-  padding: 40px 0;
-  .header{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #navigation{
-    display: flex;
-    list-style: none;
-  }
-  nav{
-  ul{
-    li{
-      margin-left: 40px;
+  body{background-color: #F4EFE9;}
+  header{
+    background-color: rgba(237, 230, 221, 1);
+    padding: 40px 0;
+    .header{
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .overlay-navigation{
+      #navigation{
+        display: flex;
+        list-style: none;
+      }
+      nav{
+        ul{
+          li{
+            margin-left: 40px;
+          }
+        }
+      }
     }
   }
-  }
-}
-}
+main{
 .sectone{
-  background-color: rgba(237, 230, 221, 1);
+  background-color: #FFD394;
   padding-bottom: 196px;
   box-sizing: border-box;
   .pict{
