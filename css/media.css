@@ -20,7 +20,9 @@ padding-right: 15px;
         display: block;
     }
     .as_seen_on .container_3{
-    display: block;}
+    display: flex;
+    align-items: center;}
+
 }
     .huge article {
         align-items: center;
@@ -78,7 +80,10 @@ padding-right: 15px;
         letter-spacing: 0.252px;
     }
 }
-
+@media screen and (max-width: 800px){
+   .d-flex{
+       display: block;}
+}
 @media screen and (max-width: 767px){
 header nav ul li{
 margin-left: 0;        

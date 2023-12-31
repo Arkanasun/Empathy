@@ -587,7 +587,14 @@ h3 {
     margin-bottom: 68px; }
   .as_seen_on .container_3 {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-evenly;
+    a{
+      img{
+        max-width: 288px;
+        max-height: 144px;
+      }
+    }
+  }
   @media screen and (max-width: 1200px) {
     .as_seen_on .container_3 {
       display: block; } }
