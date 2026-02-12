@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<header></header>
+<main>
+    <section>
+        <form action="#" class="form" method="post" name="form_practice">
+            <div><label class="first_name_label" for="first_name">First name</label>
+                <input id="first_name" name="first_name" placeholder="Ann Gee" type="text">
+            </div>
+            <div><label for="agreement">
+                <input id="agreement" name="agreement" type="checkbox">
+                I agree about terms and conditions
+            </label></div>
+            <div>
+                <label>
+                    <input name="gender" type="radio" value="man">
+                    Man
+                </label>
+                <label>
+                    <input name="gender" type="radio" value="woman">
+                    Woman
+                </label>
+                <label>
+                    <input name="gender" type="radio" value="other">
+                    Other
+                </label> <!--радиокнопкам id не ставим, имя одно-->
+            </div>
+            <div class="load_div">
+                <label for="load">
+                    <input id="load" name="load" type="file"> <!--как правило, делается готовыми виджетами, а не так-->
+                </label>
+            </div>
+            <div class="textarea_div">
+                <label for="message"></label>
+                <textarea id="message" name="message" placeholder="Comment..."></textarea>
+            </div>
+            <div class="second_textarea_div">
+                <label for="second_message"></label>
+                <textarea id="second_message" name="message" placeholder="Comment..."></textarea>
+            </div>
+            <div class="select_div">
+                <select>
+                    <option>Select a colour:</option>
+                    <option>Blue</option>
+                    <option>Red</option>
+                    <option>White</option>
+
+                </select> заполняется с пом-ю js
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+<footer></footer>
+</body>
+</html>

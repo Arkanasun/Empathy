@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.first_name_label{
+    display: block;
+}
+.load_div{
+    margin-bottom: 20px;
+}
+#message{
+    height: 100px;
+    resize: none;
+    width: 100%;
+}
+
+.textarea_div{
+    max-width: 564px;
+}
+.second_textarea_div{
+    max-width: 564px;
+}
+
+#second_message{
+    display: block;
+    margin: auto;
+}    /*для центрирования строчного элемента*/
